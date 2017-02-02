@@ -1,0 +1,7 @@
+form_example.form:
+ path: '/form_example/myform'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\form_example\Form\MyForm'
+ requirements:
+   _permission: 'access content'
